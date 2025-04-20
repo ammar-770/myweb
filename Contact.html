@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureLearnHub - Contact Us</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+  <header class="dashboard-header">
+    <div class="logo">
+      <div class="profile-initials" id="profileLogo">JD</div>
+      <div class="profile-hover-info">
+        <div class="profile-header-hover">
+          <div class="profile-logo-hover">JD</div>
+          <div>
+            <div class="profile-name-hover">John Doe</div>
+            <div class="profile-email-hover">john.doe@example.com</div>
+          </div>
+        </div>
+        <ul class="profile-hover-menu">
+          <li><a href="#">My learning</a></li>
+          <li><a href="#">My cart</a></li>
+          <li><a href="#">Wishlist</a></li>
+          <li><a href="Edit-Profile.html">Edit Profile</a></li>
+          <hr style="border-top: 1px solid #eee; margin: 10px 0;">
+          <li><a href="#">Notifications</a></li>
+          <li><a href="#">Messages <span style="background-color: purple; color: white; border-radius: 50%; padding: 2px 6px; font-size: 0.7rem;">1</span></a></li>
+          <hr style="border-top: 1px solid #eee; margin: 10px 0;">
+          <li><a href="#">Account settings</a></li>
+          <li><a href="#">Payment methods</a></li>
+          <li><a href="#">Subscriptions</a></li>
+          <li><a href="#">Udemy credits</a></li>
+          <li><a href="#">Purchase history</a></li>
+          <hr style="border-top: 1px solid #eee; margin: 10px 0;">
+          <li><a href="#">Language <span style="float: right; color: #777;">English <span style="font-size: 0.8rem;">🌐</span></span></a></li>
+          <li><a href="#">Public profile</a></li>
+          <li><a href="#">Edit profile</a></li>
+          <hr style="border-top: 1px solid #eee; margin: 10px 0;">
+          <li><a href="#">Help and Support</a></li>
+          <li><a href="#">Log out</a></li>
+        </ul>
+        <hr style="border-top: 1px solid #eee; margin: 10px 0;">
+        <div style="font-size: 0.8rem; color: #777;">Udemy Business <span style="float: right;">[Icon]</span></div>
+        <div style="font-size: 0.7rem; color: #999;">Bring learning to your company</div>
+      </div>
+      <h1>SecureLearnHub</h1>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="login.html">Login</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+
+    <main>
+        <section class="contact-hero">
+            <div class="contact-hero-content">
+                <h2>Contact Us</h2>
+                <p>We'd love to hear from you!</p>
+            </div>
+        </section>
+
+        <section class="contact-form-section">
+            <div class="contact-form-container">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="contact-button">Send Message</button>
+                </form>
+                <div id="contact-error" class="error-message"></div>
+                <div id="contact-success" class="success-message"></div>
+            </div>
+        </section>
+
+        <section class="contact-info-section">
+            <div class="contact-info-container">
+                <h2>Contact Information</h2>
+                <p><strong>Email:</strong> support@securelearnhub.com</p>
+                <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+                <p><strong>Address:</strong> 123 Cybersecurity Lane, Tech City, USA</p>
+                </div>
+        </section>
+    </main>
+    <div id="particles-js"></div>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+  particlesJS("particles-js", {
+    "particles": {
+      "number": {
+        "value": 80
+      },
+      "size": {
+        "value": 3
+      },
+      "move": {
+        "speed": 1
+      },
+      "line_linked": {
+        "enable": true
+      }
+    },
+    "interactivity": {
+      "events": {
+        "onhover": {
+          "enable": true,
+          "mode": "repulse"
+        }
+      }
+    }
+  });
+</script>
+
+
+<footer class="site-footer">
+  <div class="footer-container">
+
+    <!-- Column 1: About -->
+    <div class="footer-section">
+      <h3>About</h3>
+      <ul>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Investors</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 2: Career Academies -->
+    <div class="footer-section">
+      <h3>In-Demand Careers</h3>
+      <ul>
+        <li><a href="#">Data Scientist</a></li>
+        <li><a href="#">Full Stack Web Developer</a></li>
+        <li><a href="#">Cloud Engineer</a></li>
+        <li><a href="#">Project Manager</a></li>
+        <li><a href="#">Game Developer</a></li>
+        <li><a href="#">See all Career Academies</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 3: Skills & Certifications -->
+    <div class="footer-section">
+      <h3>Skills & Certifications</h3>
+      <ul>
+        <li><a href="#">Web Development</a></li>
+        <li><a href="#">React JS</a></li>
+        <li><a href="#">AWS & Azure</a></li>
+        <li><a href="#">Cybersecurity</a></li>
+        <li><a href="#">Project Management</a></li>
+        <li><a href="#">Data Science</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 4: Discover & Legal -->
+    <div class="footer-section">
+      <h3>Discover</h3>
+      <ul>
+        <li><a href="#">Get the App</a></li>
+        <li><a href="#">Teach on SecureLearnHub</a></li>
+        <li><a href="#">Plans and Pricing</a></li>
+        <li><a href="#">Affiliate</a></li>
+        <li><a href="#">Help & Support</a></li>
+        <li><a href="#">Legal & Accessibility</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 5: Social & Motto -->
+    <div class="footer-section">
+      <h3>Teach the World Online</h3>
+      <p>Create an online video course, reach students across the globe, and earn money.</p>
+      <p>Top companies choose SecureLearnHub Business:</p>
+      <p>🌐 Nasdaq • Volkswagen • NetApp • Eventbrite</p>
+      <div class="social-grid">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    </div>
+
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 SecureLearnHub. All rights reserved.</p>
+  </div>
+</footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

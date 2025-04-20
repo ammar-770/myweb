@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SecureLearnHub - Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+ 
+</head>
+<body>
+  <header class="dashboard-header">
+    <div class="logo">
+      <div class="profile-initials" id="profileLogo">JD</div>
+      <div class="profile-hover-info">
+        <div class="profile-header-hover">
+          <div class="profile-logo-hover">JD</div>
+          <div>
+            <div class="profile-name-hover">John Doe</div>
+            <div class="profile-email-hover">john.doe@example.com</div>
+          </div>
+        </div>
+        <ul class="profile-hover-menu">
+          <li><a href="#">My learning</a></li>
+          <li><a href="#">My cart</a></li>
+          <li><a href="#">Wishlist</a></li>
+          <li><a href="Edit-Profile.html">Edit Profile</a></li>
+          <hr style="border-top: 1px solid #eee; margin: 10px 0;">
+          <li><a href="#">Notifications</a></li>
+          <li><a href="#">Messages <span style="background-color: purple; color: white; border-radius: 50%; padding: 2px 6px; font-size: 0.7rem;">1</span></a></li>
+          <hr style="border-top: 1px solid #eee; margin: 10px 0;">
+          <li><a href="#">Account settings</a></li>
+          <li><a href="#">Payment methods</a></li>
+          <li><a href="#">Subscriptions</a></li>
+          <li><a href="#">Udemy credits</a></li>
+          <li><a href="#">Purchase history</a></li>
+          <hr style="border-top: 1px solid #eee; margin: 10px 0;">
+          <li><a href="#">Language <span style="float: right; color: #777;">English <span style="font-size: 0.8rem;">🌐</span></span></a></li>
+          <li><a href="#">Public profile</a></li>
+          <li><a href="#">Edit profile</a></li>
+          <hr style="border-top: 1px solid #eee; margin: 10px 0;">
+          <li><a href="#">Help and Support</a></li>
+          <li><a href="#">Log out</a></li>
+        </ul>
+        <hr style="border-top: 1px solid #eee; margin: 10px 0;">
+        <div style="font-size: 0.8rem; color: #777;">Udemy Business <span style="float: right;">[Icon]</span></div>
+        <div style="font-size: 0.7rem; color: #999;">Bring learning to your company</div>
+      </div>
+      <h1>SecureLearnHub</h1>
+    </div>
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="courses.html" class="nav-link">Courses</a></li>
+        <li class="nav-item"><a href="dashboard.html" class="nav-link active">Dashboard</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="dashboard-main">
+    <section class="welcome-banner">
+      <h2 class="typing-text" class="welcome-title">Welcome, User!</h2>
+      <p class="welcome-subtitle">Your personalized learning hub.</p>
+    </section>
+
+    <s<section class="course-category">
+      <h2 style="color: #f4f1f0;">Enrlled Courses</h2>
+      <div class="scroll-container">
+        <div class="course-card">
+          <img src="img/photo-1461749280684-dccba630e2f6.jpg" alt="Cybersecurity Fundamentals">
+          <div class="course-info">
+            <h3 class="course-title">Cybersecurity Fundamentals</h3>
+            <p class="course-instructor">By: John Doe</p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 65%;"></div>
+            </div>
+            <p class="progress-text">65% Complete</p>
+            <a href="#" class="continue-learning-button">Continue Learning</a>
+          </div>
+        </div>
+        
+        <div class="course-card">
+          <img src="img/photo-1551033406-611cf9a28f67.jpg" alt="Network Security">
+          <div class="course-info">
+            <h3 class="course-title">Network Security</h3>
+            <p class="course-instructor">By: Jane Smith</p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 30%;"></div>
+            </div>
+            <p class="progress-text">30% Complete</p>
+            <a href="#" class="continue-learning-button">Continue Learning</a>
+          </div>
+        </div>
+        
+        <div class="course-card">
+          <img src="img/photo-1571171637578-41bc2dd41cd2.jpg" alt="Cybersecurity Fundamentals">
+          <div class="course-info">
+            <h3 class="course-title">Cybersecurity Fundamentals</h3>
+            <p class="course-instructor">By: Peter Jones</p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 90%;"></div>
+            </div>
+            <p class="progress-text">90% Complete</p>
+            <a href="#" class="continue-learning-button">Continue Learning</a>
+          </div>
+        </div>
+        
+        <div class="course-card">
+          <img src="img/photo-1579403124614-197f69d8187b.jpg" alt="Network Security">
+          <div class="course-info">
+            <h3 class="course-title">Network Security</h3>
+            <p class="course-instructor">By: Alice Brown</p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 15%;"></div>
+            </div>
+            <p class="progress-text">15% Complete</p>
+            <a href="#" class="continue-learning-button">Continue Learning</a>
+          </div>
+        </div>
+        
+        <div class="course-card">
+          <img src="img/photo-1594729095022-e2f6d2eece9c.jpg" alt="Computer Basics">
+          <div class="course-info">
+            <h3 class="course-title">Computer Basics</h3>
+            <p class="course-instructor">By: Bob Green</p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 100%;"></div>
+            </div>
+            <p class="progress-text">100% Complete</p>
+            <a href="#" class="continue-learning-button">Continue Learning</a>
+          </div>
+        </div>
+        
+        <div class="course-card">
+          <img src="img/photo-1596949469909-5217f8b68f23.jpg" alt="Hardware Essentials">
+          <div class="course-info">
+            <h3 class="course-title">Hardware Essentials</h3>
+            <p class="course-instructor">By: Carol White</p>
+            <div class="progress-container">
+              <div class="progress-bar" style="  width: 45%;"></div>
+            </div>
+            <p class="progress-text">45% Complete</p>
+            <a href="#" class="continue-learning-button">Continue Learning</a>
+          </div>
+        </div>
+        
+        <div class="course-card">
+          <img src="img/photo-1624948384140-e48e47087fad.jpg" alt="Operating Systems">
+          <div class="course-info">
+            <h3 class="course-title">Operating Systems</h3>
+            <p class="course-instructor">By: David Black</p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 78%;"></div>
+            </div>
+            <p class="progress-text">78% Complete</p>
+            <a href="#" class="continue-learning-button">Continue Learning</a>
+          </div>
+        </div>
+          <!-- Add more computer courses here -->
+      </div>
+  </section>
+
+      <div class="announcements-section">
+        <h3 class="section-title">Announcements</h3>
+        <div class="announcement-list">
+          <div class="announcement-card">
+            <h4 class="announcement-title">New Course: Advanced Penetration Testing</h4>
+            <p class="announcement-content">We are excited to announce our latest course on advanced penetration testing techniques...</p>
+            <p class="announcement-date">Published: October 26, 2023</p>
+          </div>
+          <div class="announcement-card">
+            <h4 class="announcement-title">Cybersecurity Workshop This Weekend!</h4>
+            <p class="announcement-content">Don't miss our intensive cybersecurity workshop covering the fundamentals of network security and ethical hacking...</p>
+            <p class="announcement-date">Published: October 24, 2023</p>
+          </div>
+          <div class="announcement-card">
+            <h4 class="announcement-title">Updated Learning Paths Available</h4>
+            <p class="announcement-content">Check out our newly updated learning paths designed to guide you through our comprehensive course catalog...</p>
+            <p class="announcement-date">Published: October 20, 2023</p>
+          </div>
+          <div class="announcement-card">
+            <h4 class="announcement-title">Maintenance Scheduled for Next Week</h4>
+            <p class="announcement-content">Please be advised that we will be performing scheduled maintenance on the platform next Tuesday. Some features may be temporarily unavailable...</p>
+            <p class="announcement-date">Published: October 18, 2023</p>
+          </div>
+          </div>
+      </div>
+
+      
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+  
+      <!-- Column 1: About -->
+      <div class="footer-section">
+        <h3>About</h3>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Investors</a></li>
+        </ul>
+      </div>
+  
+      <!-- Column 2: Career Academies -->
+      <div class="footer-section">
+        <h3>In-Demand Careers</h3>
+        <ul>
+          <li><a href="#">Data Scientist</a></li>
+          <li><a href="#">Full Stack Web Developer</a></li>
+          <li><a href="#">Cloud Engineer</a></li>
+          <li><a href="#">Project Manager</a></li>
+          <li><a href="#">Game Developer</a></li>
+          <li><a href="#">See all Career Academies</a></li>
+        </ul>
+      </div>
+  
+      <!-- Column 3: Skills & Certifications -->
+      <div class="footer-section">
+        <h3>Skills & Certifications</h3>
+        <ul>
+          <li><a href="courses.html">Web Development</a></li>
+          <li><a href="courses.html">React JS</a></li>
+          <li><a href="courses.html">AWS & Azure</a></li>
+          <li><a href="courses.html">Cybersecurity</a></li>
+          <li><a href="courses.html">Project Management</a></li>
+          <li><a href="courses.html">Data Science</a></li>
+        </ul>
+      </div>
+  
+      <!-- Column 4: Discover & Legal -->
+      <div class="footer-section">
+        <h3>Discover</h3>
+        <ul>
+          <li><a href="#">Get the App</a></li>
+          <li><a href="#">Teach on SecureLearnHub</a></li>
+          <li><a href="#">Plans and Pricing</a></li>
+          <li><a href="#">Affiliate</a></li>
+          <li><a href="#">Help & Support</a></li>
+          <li><a href="#">Legal & Accessibility</a></li>
+        </ul>
+      </div>
+  
+      <!-- Column 5: Social & Motto -->
+      <div class="footer-section">
+        <h3>Teach the World Online</h3>
+        <p>Create an online video course, reach students across the globe, and earn money.</p>
+        <p>Top companies choose SecureLearnHub Business:</p>
+        <p>🌐 Nasdaq • Volkswagen • NetApp • Eventbrite</p>
+        <div class="social-grid">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+  
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2025 SecureLearnHub. All rights reserved.</p>
+    </div>
+  </footer>
+  <div id="particles-js"></div>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 80
+        },
+        "size": {
+          "value": 3
+        },
+        "move": {
+          "speed": 1
+        },
+        "line_linked": {
+          "enable": true
+        }
+      },
+      "interactivity": {
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "repulse"
+          }
+        }
+      }
+    });
+  </script>
+  <script src="js/script.js">
+  
+  </script>
+</body>
+
+ 
+</html> 
